@@ -3,37 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" type="text/css" href="css/html5reset.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>CAPS</title>
 </head>
 <body>
 
     <header>
-            <a href = "">Skip to Main Content</a>
+        <div class="skip" tabindex="0"><a href="">Skip to Main Content</a></div>
         <nav>
+            <a href="index.html"><img class="nav-logo" src="images/Block_M-Hex.png" alt="University of Michigan Logo"></a>
             <ul>
                 <li><a href = "index.html">Home</a></li>
                 <li><a href = "page_1.html">Food Pantry</a></li>
-                <li><a href = "CAPS.html">CAPS</a></li>
+                <li class="active"><a href = "CAPS.html">CAPS</a></li>
                 <li><a href = "First_Gen.html">First Gen</a></li>
             </ul>
         </nav>
-        <h1>Counseling and Psychological Services (CAPS)</h1>
-        <ul>
-            <li><a href="https://caps.umich.edu/article/scheduling-appointment">Make an Appointment</a></li>
-            <li><a href="https://caps.umich.edu/article/urgent-support">Urgent Support</a></li>
+        <section class="header">
+            <h1>Counseling and Psychological Services (CAPS)</h1>
+            <img src="images/overwhelmed.png" alt="Join us for Stress Less">
+        </section>
+        <ul class="caps-section-buttons">
+            <li class="caps-section-button1"><a href="https://caps.umich.edu/article/scheduling-appointment">Make an Appointment</a></li>
+            <li class="caps-section-button2"><a href="https://caps.umich.edu/article/urgent-support">Urgent Support</a></li>
         </ul>
-
-        <p>For more information visit <a href = "https://caps.umich.edu/">CAPS website</a></p>
-        <img src="images/safecommunity.png" alt="Togetherall. A safe community to support your mental health.">
-        <img src="images/uwill.png" alt="Uwill student mental health and wellness">
-        <img src="images/overwhelmed.png" alt="Join us for Stress Less">
     </header>
     <main>
-        <div>
+        <div class="caps-section">
             <h2>Counseling and Psychological Services (CAPS)</h2>
             <p>University Health & Counseling (UHC) supports the health and well-being of the campus community. We are inspired to help students realize their potential, cope with the stresses of life, work productively, and connect meaningfully with others.
             </p>
-            
             <ul>
                 <li><a href = "https://caps.umich.edu/article/mental-health-support-options">Treatment and Support Options</a></li>
                 <li><a href = "https://caps.umich.edu/content/when-can-i-be-seen">When can I be seen?</a></li>
@@ -41,7 +41,10 @@
                 <li><a href = "https://caps.umich.edu/article/urgent-support">Urgent Support</a></li>
             </ul>
 
+        </div> 
+        <div class="caps-section">
             <h2>Learn More</h2>
+            <img src="images/uwill.png" alt="Uwill student mental health and wellness">
             <ul>
                 <li><a href = "https://caps.umich.edu/lets-talk">Let's Talk</a></li>
                 <li><a href = "https://caps.umich.edu/stress-less">Stress Less</a></li>
@@ -50,28 +53,19 @@
                 <li><a href = "https://caps.umich.edu/article/first-year-guide">First Year Guide</a></li>
             </ul>
 
-
-
         </div>
 
-<div>
-    <h2>Hours</h2>
-    <p>Monday - Friday: 8:00am - 5:00pm</p>
-    <p>Saturday & Sunday: Closed</p>
-     
-</div>
-            
-            <!-- Jackie Wolf -->
-    
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div class="caps-section">
+            <h2>Hours</h2>
+            <p>Monday - Friday: 8:00am - 5:00pm</p>
+            <p>Saturday & Sunday: Closed</p>
+        </div>
     </main>
     <footer>
-        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
+        <a href="index.html"><img class="nav-logo" src="images/UMSI_logo-white.png" alt="University of Michigan Logo"></a>
+        <p>To learn more, visit:</p>
+        <p><a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
     </footer>
-    
 </body>
 
 </html>
