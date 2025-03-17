@@ -16,7 +16,9 @@ body{
 .skip a:focus{
     position: absolute;
     border: 3px solid #FFCB05;
-    top: 0px;
+    top: 10px;
+    padding: 5px;
+    font-size: medium;
 }
 
 
@@ -61,14 +63,11 @@ header img{
 }
 
 header ul li{
-    display: inline-grid;
-    padding: 10px;
-    justify-items: space-evenly;
     align-items: center;
 }
 
 div {
-    display: inline-grid;
+    display:grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
 
@@ -90,9 +89,7 @@ nav ul{
     margin: 0;}
 
 nav ul li{
-    display: inline-grid;
     font-size: 2em;
-    text-decoration: none;
     padding: 10px;
     background-color: #FFCB05;
     justify-content: space-around;
@@ -146,7 +143,7 @@ nav ul li{
 
 .welcome ol li{
     list-style: none;
-    display: inline-grid;
+    display: grid;
     font-size: 1.3em;
     font-weight: 600;
     color: #00274C;
@@ -189,7 +186,7 @@ figcaption{
 
 
 .page-1-section{
-    display:inline-grid;
+    display: grid;
     margin: 5%;
     box-shadow: 0 0 1em 0.1em rgba(155, 154, 109, 0.25);
     border-radius: 10px;
@@ -245,12 +242,12 @@ figcaption{
 
 }
 
-.caps-section-links{
-    display: grid;
+header ul{
+    display:grid;
     grid-template-columns: 1fr 1fr;
 }
-
-.caps-section-buttons a{
+.caps-section-button1 a{
+    background-color: #2F65A7;
     padding:10px 15px 10px 15px;
     text-decoration: none;
     color:white;
@@ -260,12 +257,15 @@ figcaption{
     text-align: center;
 }
 
-.caps-section-button1 a{
-    background-color: #2F65A7;
-}
-
 .caps-section-button2 a{
     background-color: #9A3324;
+    padding:10px 15px 10px 15px;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    border-radius: 40px;
+    box-shadow: 0 0 1em 0.1em rgba(155, 154, 109, 0.25);
+    text-align: center;
 }
 
 .first-gen-section{
@@ -335,7 +335,7 @@ body{
 }
 
 footer a, footer p{
-    display: inline-grid;
+    display:  grid;
     text-decoration: none;
     color: white;
 }
