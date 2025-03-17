@@ -41,8 +41,7 @@ h3{
 
 p{
     font-size: 1.3em;
-    padding: 5%;
-}
+    padding: 5%;}
 
 li{
     padding: 5%;
@@ -129,10 +128,11 @@ nav ul li{
     grid-column: 1/ span 3;
     overflow: visible;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: #CFC096;
+    background-color: #2F65A7;
     box-shadow: 0 0 1em 0.1em rgba(155, 154, 109, 0.25);
     border-radius: 10px;
     margin: 5%;
+    color: white;
 
 }
 
@@ -176,9 +176,12 @@ nav ul li{
     display:inline-grid;
     margin: 5%;
     /* border: 2px solid black; */
-    box-shadow: 0 0 1em 0.1em rgba(155, 154, 109, 0.25);
+    box-shadow: 0 0 1em 0.1em rgb(195, 194, 185);
     border-radius: 10px;
     grid-template-columns: 1fr 1fr;
+    background-color: #00274C;
+    color: white;
+
 
 }
 
@@ -202,7 +205,7 @@ figcaption{
 .page-1-section{
     display: grid;
     margin: 5%;
-    box-shadow: 0 0 1em 0.1em rgba(155, 154, 109, 0.25);
+    box-shadow: 0 0 1em 0.1em rgb(195, 194, 185);
     border-radius: 10px;
     grid-template-columns: 1fr 1fr;
     background-color: #00B2A9;
@@ -222,7 +225,7 @@ figcaption{
     flex-direction: column;
     flex-wrap: wrap;
     margin: 5%;
-    box-shadow: 0 0 1em 0.1em rgba(155, 154, 109, 0.25);
+    box-shadow: 0 0 1em 0.1em rgb(195, 194, 185);
     border-radius: 10px;
     grid-template-columns: 1fr 1fr;
     column-width: 0;
@@ -280,7 +283,7 @@ header ul{
     background-color: #2F65A7;
     padding:10px 15px 10px 15px;
     border-radius: 40px;
-    box-shadow: 0 0 1em 0.1em rgba(155, 154, 109, 0.25);
+    box-shadow: 0 0 1em 0.1em rgb(195, 194, 185);
     text-align: center;
     display: grid;
 
@@ -290,7 +293,7 @@ header ul{
     background-color: #9A3324;
     padding: 10px 15px 10px 15px;
     border-radius: 40px;
-    box-shadow: 0 0 1em 0.1em rgba(155, 154, 109, 0.25);
+    box-shadow: 0 0 1em 0.1em rgb(195, 194, 185);
     text-align: center;
  
 }
@@ -300,7 +303,7 @@ header ul{
     flex-direction: column;
     flex-wrap: wrap;
     margin: 5%;
-    box-shadow: 0 0 1em 0.1em rgba(155, 154, 109, 0.25);
+    box-shadow: 0 0 1em 0.1em rgb(195, 194, 185);
     border-radius: 10px;
     grid-template-columns: 1fr 1fr;
     column-width: 0;
@@ -314,9 +317,6 @@ header ul{
     grid-template-columns: 1fr 1fr;
 }
 
-.first-gen-section p:last-child{
-    grid-column: 1 /span 3;
-}
 
 .first-gen-section h2, h3, p{
     margin: 0;
@@ -328,6 +328,10 @@ header ul{
     color:#00274C ;
 }
 
+.first-gen-section p:last-child{
+    grid-column: 1 /span 3;
+ 
+}
 
 iframe{
     display: block;
