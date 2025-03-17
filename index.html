@@ -3,59 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Student Success Portal</title>
 </head>
 <body>
-
+    <div class="skip" tabindex="0"><a href="#main-section">Skip to Main Content</a></div>
     <header>
-  <a href = "">Skip to Main Content</a>
         <nav>
+            <a href="index.html"><img class="nav-logo" src="images/Block_M-Hex.png" alt="University of Michigan Logo"></a>
             <ul>
-                <li><a href = "index.html">Home</a></li>
+                <li class="active"><a href = "index.html">Home</a></li>
                 <li><a href = "page_1.html">Food Pantry</a></li>
                 <li><a href = "CAPS.html">CAPS</a></li>
                 <li><a href = "First_Gen.html">First Gen</a></li>
             </ul>
         </nav>
-        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
-        <h1>Student Success Portal</h1>
-
+        <!-- <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo"> -->
+        <section class="header">
+            <h1 class="index-title">Student Success Portal</h1>
+            <img src="images/MCOMMONS-WinterSemester2025-42.jpg" alt="photo of student at Mcommons walking with backpack">
+        </section>
     </header>
-    <main>
-        <section>
+
+
+    <main id="main-section">
+        <section class="welcome">
             <h2>Welcome to the UM Grad Success Navigator</h2>
-            <p> Your Comprehensive Guide to Resources for Graduate School Success</p>
+            <!-- <h3> Your Comprehensive Guide to Resources for Graduate School Success</h3> -->
             <p>This guide is set up to help you be successul inside and outside of the classroom and we have included the following resources throughout our site:</p>
             <ol>
-                <li>Academic Resources</li>
                 <li>Physical Health</li>
                 <li>Mental Health</li>
                 <li>Life Outside Classroom</li>
-                <li>Contact</li>
             </ol>
         </section>
-        <section>
+    
+        <section class="index-section">
             <h2>Physical Health</h2>
             <p>Keeping your body healthy is essential for success. The University of Michigan offers numerous resources to help you stay in top physical condition:</p>
             <article>
-                <h3>University Health Service (UHS)</h3>
-                <figure>
+                <h3>University Health Service</h3>
+                <!-- <figure>
                     <img src="images/UHS.jpg" alt="University Health Services building">
-                    <figcaption>University Health Services Building</figcaption>
-                </figure>
-                <p>University Health Service (UHS): Access comprehensive medical care, including routine check-ups, vaccinations, and specialist referrals.</p>
+                    <figcaption>University Health Services Building</figcaption> -->
+                <!-- </figure> -->
+                <p>Access comprehensive medical care, including routine check-ups, vaccinations, and specialist referrals.</p>
             </article>
             <article>
                 <h3>Recreational Sports</h3>
-                <figure>
+                <!-- <figure>
                     <img src="images/UMSI_CampusFall_UMSIBackpack_02.jpg" alt="A student wears a UMSI backpack in fall on the drag.">
                     <figcaption>UMSI out in the fall!</figcaption>
-                </figure>
+                </figure> -->
                 <p>Participate in various fitness programs, sports clubs, and use of gym facilities to stay active and healthy.</p>
             </article>
         </section>
         
-        <section>
+        <section class="index-section">
             <h2>Mental Health</h2>
             <p>Maintaining your mental well-being is crucial for thriving in graduate school. Here are resources to support your mental health:</p>
             <article>
@@ -80,7 +85,7 @@
         </section>
 
         
-        <section id="life-outside-classroom">
+        <section class="index-section">
             <h2>Life Outside the Classroom</h2>
             <p>Graduate school is more than just academics. It's important to cultivate a balanced life. Here are some resources to help you enjoy life outside the classroom:</p>
             <ul>
@@ -94,8 +99,12 @@
         <!-- Content taken & modified from UMGPT with the prompt, "write me a webpage of intro content to help University of Michigan Master's students navigate different resources for being successful in grad school - this will include academic resources, physical health resources, mental health resources, support for life outside the classroom"
         UMGPT. (2024). UMGPT (August 29th version) [Large language model]. -->
     </main>
+
+
     <footer>
-        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
-        </footer>
+        <a href="index.html"><img class="nav-logo" src="images/UMSI_logo-white.png" alt="University of Michigan Logo"></a>
+        <p>To learn more, visit:</p>
+        <p><a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
+    </footer>
 </body>
 </html>
