@@ -241,7 +241,11 @@ figcaption{
 
 .caps-section a{
     color: white;
-    padding: 5%;
+    padding-left: 5%;
+}
+
+.caps-section ul li{
+    padding: 3%;
 }
 .caps-section p{
     color: white;
