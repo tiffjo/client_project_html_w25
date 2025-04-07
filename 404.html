@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>404 Page</title>
+</head>
+<body>
+    <header>
+        <div class="skip" tabindex="0"><a href="">Skip to Main Content</a></div>
+    </header>
+    <main>
+        <div class="error-main">
+            <div class="error-header">
+                <h1>404</h1>
+            </div>
+            <div class="error-p"><p>Sorry, the U-M squirrel couldn't find that page.</p>
+            </div>
+            <div class="error-img">
+                <img src="images/squirrel-um.png" alt="Sad squirrel wearing a U-M tee">
+            </div>
+            
+            <!-- <img src="images/squirrel-um.png" alt="Sad squirrel wearing a U-M tee"> -->
+        </div>
+    </main>
+    <footer>
+        <img class="footer-logo" src="images/UMSI_logo-white.png" alt="University of Michigan Logo">
+        <p>To learn more, visit:
+            <br>
+            <br>
+            <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a>
+        </p>
+        <p>© Copyrights <span id="year"></span> by University of Michigan School of Information. All rights reserved.</p>
+        <script>
+            document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
+    </footer>
+</body>
+</html>
